@@ -6,4 +6,4 @@ vagrant-vm ansible_host=192.168.56.222 ansible_user=vagrant ansible_ssh_private_
 remote-server ansible_host=<YOUR_SERVER_IP> ansible_user=<YOUR_USER>
 
 [local]
-localhost ansible_connection=local
+localhost ansible_connection=local ansible_user=denis
